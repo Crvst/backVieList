@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj": {}
+    "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj": {
+    "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj",
         "projectName": "ApiProject",
-        "projectPath": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj",
-        "packagesPath": "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CristopherZúñiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,6 +41,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
@@ -99,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

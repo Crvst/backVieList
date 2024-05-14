@@ -15,5 +15,7 @@ namespace ApiProject.Data
         }
 
         public DbSet<ApiProject.Model.Usuario> Usuario { get; set; } = default!;
+
+        public DbSet<ApiProject.Model.Playlist> Playlist { get; set; } = default!;
     }
 }
