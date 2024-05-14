@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iotWVCPCg9NfLMf8WQuwmXPt++aRdqFM7XGJEDABq6KyoK37gqY0+3f9JPYeQj1kwKs6WG8ZsLlMD9VWzCXddA==",
+  "dgSpecHash": "dKEWbVavQmkyw+IAPmC2Ys2m/syouKunngnX/Rt+he8gtoh1dlgHlSPZbDnW1xBFSVKk2hlJxKkIA1hx7KBHSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj",
+  "projectFilePath": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

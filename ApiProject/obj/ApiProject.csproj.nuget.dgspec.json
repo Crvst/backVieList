@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj": {}
+    "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj": {
+    "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj",
+        "projectUniqueName": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
         "projectName": "ApiProject",
-        "projectPath": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\ApiProject.csproj",
+        "projectPath": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
         "packagesPath": "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CristopherZúñiga\\source\\repos\\ApiProject\\ApiProject\\obj\\",
+        "outputPath": "D:\\Project\\backVieList\\ApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CristopherZúñiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
