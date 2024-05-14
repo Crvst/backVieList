@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "bs5HXj+zw60IL3uJ7FSXS9CxpstzeooraNOVFqb0CRxF0NB2epJsbxO7tJ2U36eOJOiOwlOT5IfQlMSa1oQuhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj",
+=======
+  "dgSpecHash": "dKEWbVavQmkyw+IAPmC2Ys2m/syouKunngnX/Rt+he8gtoh1dlgHlSPZbDnW1xBFSVKk2hlJxKkIA1hx7KBHSA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
+>>>>>>> 2bb9dfa68e27753b20f6cf606876bd36e6e01c02
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
