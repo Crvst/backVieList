@@ -17,19 +17,11 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApiProject
 build_property.RootNamespace = ApiProject
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\HP\Documents\joan\ingenieria\proyecto\backVieList\ApiProject\
-=======
 build_property.ProjectDir = D:\Project\backVieList\ApiProject\
->>>>>>> 2bb9dfa68e27753b20f6cf606876bd36e6e01c02
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
-build_property.MSBuildProjectDirectory = C:\Users\HP\Documents\joan\ingenieria\proyecto\backVieList\ApiProject
-=======
 build_property.MSBuildProjectDirectory = D:\Project\backVieList\ApiProject
->>>>>>> 2bb9dfa68e27753b20f6cf606876bd36e6e01c02
 build_property._RazorSourceGeneratorDebug = 

@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj",
-        "projectName": "ApiProject",
-        "projectPath": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\ApiProject.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\joan\\ingenieria\\proyecto\\backVieList\\ApiProject\\obj\\",
-=======
     "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj": {}
   },
   "projects": {
@@ -25,10 +12,9 @@
         "projectPath": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
         "packagesPath": "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\",
         "outputPath": "D:\\Project\\backVieList\\ApiProject\\obj\\",
->>>>>>> 2bb9dfa68e27753b20f6cf606876bd36e6e01c02
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CristopherZúñiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -112,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
