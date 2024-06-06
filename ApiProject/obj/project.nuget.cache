@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xqd4rPy1S0clHb8tNXXCY/c697UXfzAErTAsOHh/mTnIrspIxRf8QZ6eMWli5MrkkNTp0csh8p98rCWhOFBNFQ==",
+  "dgSpecHash": "zZnw6f3WZx2VigQvQqDPjbPDALNfwXwv9TpuWOmC753WvuezKTh0uV3tuSkmM8AvUWfuavXjDrCfBT11cgv1IA==",
   "success": true,
   "projectFilePath": "D:\\Project\\backVieList\\ApiProject\\ApiProject.csproj",
   "expectedPackageFiles": [
@@ -183,12 +183,5 @@
     "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\CristopherZúñiga\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Project\\backVieList\\ApiProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
