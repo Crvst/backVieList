@@ -40,6 +40,16 @@ namespace ApiProject.Controllers
             return playlist;
         }
 
+        // POST: api/Playlists
+        [HttpPost]
+        public async Task<ActionResult<Playlist>> PostPlaylist(Playlist playlist)
+        {
+            _context.Playlist.Add(playlist);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetPlaylist", new { id = playlist.Id }, playlist);
+        }
+
         // PUT: api/Playlists/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPlaylist(int id, Playlist playlist)
@@ -68,16 +78,6 @@ namespace ApiProject.Controllers
             }
 
             return NoContent();
-        }
-
-        // POST: api/Playlists
-        [HttpPost]
-        public async Task<ActionResult<Playlist>> PostPlaylist(Playlist playlist)
-        {
-            _context.Playlist.Add(playlist);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetPlaylist", new { id = playlist.Id }, playlist);
         }
 
         // DELETE: api/Playlists/5

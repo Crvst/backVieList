@@ -9,13 +9,30 @@ namespace ApiProject.Data
 {
     public class ApiProjectContext : DbContext
     {
-        public ApiProjectContext (DbContextOptions<ApiProjectContext> options)
+        public ApiProjectContext(DbContextOptions<ApiProjectContext> options)
             : base(options)
         {
         }
 
-        public DbSet<ApiProject.Model.Usuario> Usuario { get; set; } = default!;
+        public DbSet<Usuario> Usuario { get; set; } = default!;
+        public DbSet<Playlist> Playlist { get; set; } = default!;
+        public DbSet<Canal> Canal { get; set; } = default!;
+        public DbSet<PlaylistCanales> PlaylistCanales { get; set; } = default!;
 
-        public DbSet<ApiProject.Model.Playlist> Playlist { get; set; } = default!;
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<PlaylistCanales>()
+                .HasKey(pc => new { pc.PlaylistId, pc.CanalId });
+
+            modelBuilder.Entity<PlaylistCanales>()
+                .HasOne(pc => pc.Playlist)
+                .WithMany(p => p.PlaylistCanales)
+                .HasForeignKey(pc => pc.PlaylistId);
+
+            modelBuilder.Entity<PlaylistCanales>()
+                .HasOne(pc => pc.Canal)
+                .WithMany(c => c.PlaylistCanales)
+                .HasForeignKey(pc => pc.CanalId);
+        }
     }
 }
