@@ -18,8 +18,6 @@ namespace ApiProject.Model
         [Required]
         public int CanalId { get; set; }
 
-        
-
         [ForeignKey("PlaylistId")]
         [JsonIgnore] // Esta propiedad no será serializada
         public Playlist? Playlist { get; set; }

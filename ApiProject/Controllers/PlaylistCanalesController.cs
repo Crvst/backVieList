@@ -28,16 +28,21 @@ namespace ApiProject.Controllers
 
         // GET: api/PlaylistCanales/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<PlaylistCanales>> GetPlaylistCanales(int id)
+        public async Task<ActionResult<Canal>> GetPlaylistCanales(int id)
         {
             var playlistCanales = await _context.PlaylistCanales.FindAsync(id);
+            var canal = playlistCanales.Canal;
 
             if (playlistCanales == null)
             {
+                if (canal == null)
+                {
+                    return NotFound();
+                }
                 return NotFound();
             }
-
-            return playlistCanales;
+            
+            return canal;
         }
 
         // POST: api/PlaylistCanales
